@@ -1,0 +1,139 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-items li{
+    list-style: none;
+    margin: 20px;
+}
+
+.nav-items li a{
+    text-decoration: none;
+    color: #850000;
+}
+
+.nav-items{
+    display:flex;
+    justify-content: right;
+    margin-right: 40px;
+}
+
+.navbar{
+    background-color: #fdd77f;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-me {
+    text-align: center;
+    color: #850000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    margin: 40px;
+}
+
+.intro {
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 240px;
+}
+
+.contact-me {
+    margin: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.contact-me input, .contact-me textarea {
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0 20px 0;
+    border-radius: 8px;
+    width: 500px;
+}
+
+.contact-me button {
+    padding: 10px 15px;
+    font-family: 'Roboto', sans-serif;
+    background-color:#C58940;
+    color: white;
+    font-size: 18px;
+    border: 2px solid #C58940;
+    border-radius: 5px;
+}
+
+.contact-me button:hover {
+    background-color: #ffffff;
+    color:#C58940;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.contact-me input, .contact-me textarea {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 6px;
+    width: 500px;
+    border: 2px solid #850000;
+}
+
+.contact-me input:focus, .contact-me textarea:focus {
+    border: none;
+    outline-style: solid;
+    outline-color:#850000;
+    outline-width: 2px;
+}
+
+
+.contact-me label {
+    margin: 5px 0;
+}
+
+.contact-me span {
+color: red;
+}
+
+.contact-me button {
+    padding: 10px 15;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.contact-me button:hover {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.h3 {
+    color: #850000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;  
+    margin: 40px 0;
+}
+
+.subheading {
+    color: #850000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;  
+    margin: 40px 0;
+}
+
+.contact {
+    text-align: center;
+    color: #850000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    margin: 40px;
+}
+
+footer {
+    background-color: #FFDB89;
+    font-family: 'Roboto', sans-serif;
+    color: #C58940;
+    padding: 10px;
+    text-align: center;
+}

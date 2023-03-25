@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-items li{
+    list-style: none;
+    margin: 20px;
+}
+
+.nav-items li a{
+    text-decoration: none;
+    color: #850000;
+}
+
+.nav-items{
+    display:flex;
+    justify-content: right;
+    margin-right: 40px;
+}
+
+.navbar{
+    background-color: #fdd77f;
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile {
+    margin: 30px;
+}
+
+.profile-pic{
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+}
+
+
+.Label-name {
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    background-color: #c58940;
+    width: 25%;
+    padding: 14px;
+    margin: 11px;
+    border-radius: 7px;
+}
+
+.Labels {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Label-name:hover {
+    background-color: #ffc850;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 50px;
+    color: #850000;
+}
+
+.hello-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.hello {
+    margin: 35px 0;
+    font-size: 36px;
+}
+
+.name {
+    font-size: 36px;  
+}
+
+.skills-section {
+    margin: 50px;
+
+}
+
+.subheading {
+    color: #850000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;  
+    margin: 40px 0;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background-color: #FFDB89;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 350px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+
+.skill-title {
+    color: #C58940;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.skill-content {
+    color: #850000;
+}
+
+.skill-card:hover {
+    background-color: #C58940; 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.skill-card:hover .skill-title {
+    color: #FFDB89;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+.hobbies-section {
+    margin: 50px;
+}
+
+.hobbies-section h3 {
+    color: #850000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;  
+    margin: 40px 0;
+}
+
+.hobby img, .hobby-alternate img {
+/* border-radius: 50%; */
+width: 180px;
+height: 200px;
+}
+
+.hobby, .hobby-alternate {
+    font-family: 'Roboto', sans-serif;
+    width: 750px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.hobby p {
+    float: right;
+    max-width: 400px;
+    margin: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #850000;
+}
+
+.hobby-alternate p {
+    float: left;
+    max-width: 400px;
+    margin: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #850000;
+}
+
+.contact-me {
+    margin: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.contact-me input, .contact-me textarea {
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0 20px 0;
+    border-radius: 8px;
+    width: 500px;
+}
+
+.contact-me button {
+    padding: 10px 15px;
+    font-family: 'Roboto', sans-serif;
+    background-color:#C58940;
+    color: white;
+    font-size: 18px;
+    border: 2px solid #C58940;
+    border-radius: 5px;
+}
+
+.contact-me button:hover {
+    background-color: #ffffff;
+    color:#C58940;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.contact-me input, .contact-me textarea {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 6px;
+    width: 500px;
+    border: 2px solid #850000;
+}
+
+.contact-me input:focus, .contact-me textarea:focus {
+    border: none;
+    outline-style: solid;
+    outline-color:#850000;
+    outline-width: 2px;
+}
+
+
+.contact-me label {
+    margin: 5px 0;
+}
+
+.contact-me span {
+color: red;
+}
+
+.contact-me button {
+    padding: 10px 15;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.contact-me button:hover {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #FFDB89;
+    font-family: 'Roboto', sans-serif;
+    color: #C58940;
+    padding: 10px;
+    text-align: center;
+}
